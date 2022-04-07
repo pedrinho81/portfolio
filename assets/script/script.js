@@ -139,5 +139,99 @@ const mobileNavbar = new MobileNavbar(
 
 mobileNavbar.init()
 
-//testes
+//animações cards
+const container1 = document.querySelector(".card-animation1")
+const card1 = document.querySelector(".a1")
+
+
+
+container1.addEventListener("mousemove", (event) => {
+    const {width, height} = container1.getBoundingClientRect()
+    const {offsetX, offsetY} = event;
+    card1.style.setProperty("--x-pos", (offsetX / width) - 0.6)
+    
+    card1.style.setProperty("--y-pos", (offsetY / height) - 0.6);
+})
+
+const container2 = document.querySelector(".card-animation2")
+const card2 = document.querySelector(".a2")
+
+
+
+container2.addEventListener("mousemove", (event) => {
+    const {width, height} = container2.getBoundingClientRect()
+    const {offsetX, offsetY} = event;
+    card2.style.setProperty("--x-pos", (offsetX / width) - 0.6)
+    
+    card2.style.setProperty("--y-pos", (offsetY / height) - 0.6);
+})
+
+const container3 = document.querySelector(".card-animation3")
+const card3 = document.querySelector(".a3")
+
+
+
+container3.addEventListener("mousemove", (event) => {
+   const {width, height} = container3.getBoundingClientRect()
+    const {offsetX, offsetY} = event;
+    card3.style.setProperty("--x-pos", (offsetX / width) - 0.6)
+    
+    card3.style.setProperty("--y-pos", (offsetY / height) - 0.6);
+})
+
+const container4 = document.querySelector(".card-animation4")
+const card4 = document.querySelector(".a4")
+
+
+
+container4.addEventListener("mousemove", (event) => {
+    const {width, height} = container4.getBoundingClientRect()
+    const {offsetX, offsetY} = event;
+    card4.style.setProperty("--x-pos", (offsetX / width) - 0.6)
+    
+    card4.style.setProperty("--y-pos", (offsetY / height) - 0.6);
+})
+
+const container5 = document.querySelector(".card-animation5")
+const card5 = document.querySelector(".a5")
+
+
+
+container5.addEventListener("mousemove", (event) => {
+    const {width, height} = container5.getBoundingClientRect()
+    const {offsetX, offsetY} = event;
+    card5.style.setProperty("--x-pos", (offsetX / width) - 0.6)
+    
+    card5.style.setProperty("--y-pos", (offsetY / height) - 0.6);
+})
+
+
+const container6 = document.querySelector(".card-animation6")
+const card6 = document.querySelector(".a6")
+
+
+container6.addEventListener("mousemove", (event) => {
+const {width, height} = container6.getBoundingClientRect()
+
+    const {offsetX, offsetY} = event;
+    card6.style.setProperty("--x-pos", (offsetX / width) - 0.6)
+    
+    card6.style.setProperty("--y-pos", (offsetY / height) - 0.6);
+})
+
+const container7 = document.querySelector(".card-animation7")
+const card7 = document.querySelector(".a7")
+
+
+
+container7.addEventListener("mousemove", (event) => {
+    const {width, height} = container7.getBoundingClientRect()
+    const {offsetX, offsetY} = event;
+    card7.style.setProperty("--x-pos", (offsetX / width) - 0.6)
+    
+    card7.style.setProperty("--y-pos", (offsetY / height) - 0.6);
+})
+
+
+
 
